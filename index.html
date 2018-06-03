@@ -1,0 +1,27 @@
+<!--Bessy Torres_Miller
+    05/02/2018
+    index.html
+    Platform game, CHPT15 Eloquent JavaScript
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+
+    <script src="gameP.js"></script>
+    <script src="levels.js"></script>
+
+    <div id='status'>Lives: <span id="lives"></span></div>
+    <p> Press Esc to pause the game</p>
+
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+<script>
+    runGame(GAME_LEVELS, DOMDisplay);
+</script>
+</body>
+
+</html>
